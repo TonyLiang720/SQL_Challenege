@@ -1,0 +1,39 @@
+Coding Challenge: Using SQL
+
+In this challenge, you will be tasked with creating SQL queries to be executed against the "Sakila" sample database that comes with MySQL.
+
+Prerequisites:
+- MySQL installed on VDE; at least one local server instance running
+- MySQL Workbench installed on VDE
+- "Sakila" sample database install on local MySQL server instance
+
+Notes on doing these challenges:
+- Some of these are simple; some are challenging.
+- If you get really stuck on one, move on to another and come back later
+- When all is said and done, I'll provide you with the answers so you can check your SQL queries
+
+Challenges:
+
+1. Answer the following questions. Provide the query you used to get each answer:
+
+Which actors have the first name ‘Scarlett’?
+Which actors have the last name ‘Johansson’?
+How many distinct actors last names are there?
+Which last names are not repeated?
+Which last names appear more than once?
+Which actor has appeared in the most films?
+Is ‘Academy Dinosaur’ available for rent from Store 1?
+
+2. Find all actors whose last names contain the letters "LI". Order the rows by last name and first name, in that order.
+
+3. List the last names of actors, as well as how many actors have that last name.
+
+4. List last names of actors and the number of actors who have that last name, but only for names that are shared by at least two actors.
+
+5. The actor HARPO WILLIAMS was accidentally entered in the actor table as GROUCHO WILLIAMS. Write a query to fix the record.
+
+6. It turns out that GROUCHO was the correct name after all. In a single query, if the first name of the actor is currently HARPO, change it to GROUCHO.
+
+7. Display the country_id and country columns of the following countries: Afghanistan, Bangladesh, and China.
+
+8. Use a join to display the first and last names, as well as the address, of each staff member. Use the tables named staff and address.
